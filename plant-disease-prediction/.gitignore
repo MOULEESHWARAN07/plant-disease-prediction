@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/train/.gitkeep
+!data/processed/val/.gitkeep
+!data/processed/test/.gitkeep
+models/*.keras
+training_*.png
